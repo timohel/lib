@@ -1,6 +1,3 @@
-
-
-
 def game
 marche = 0
 
@@ -12,7 +9,7 @@ while marche < 10
 
   if (number == 5) || (number == 6)
     marche = marche + 1
-    puts "tu as fait #{number} tu avances d'une marche inside"
+    puts "tu as fait #{number} tu avances d'une marche"
     puts "tu es à la marche #{marche}"
   elsif number == 1
     marche = marche - 1
@@ -28,12 +25,7 @@ while marche < 10
   end
 end
 
-puts "tu as accède à la marche 10, chaaaaaaammmmmppppiiiiiiionnnnnnnnnnnnnnnnnnnnnnnnn !"
+puts "tu as accèdé à la marche 10, chaaaaaaammmmmppppiiiiiiionnnnnnnnnnnnnnnnnnnnnnnnn !"
 end
 
 game
-
-def average_finish_time
-100 * game
-end
-average_finish_time
